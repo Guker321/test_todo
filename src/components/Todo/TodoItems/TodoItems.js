@@ -14,7 +14,7 @@ export default function TodoItems() {
   if (!items) return null;
 
   let randId = [];
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < randInt(4,6); i++) {
     randId.push(randInt(0, 200));
   }
 
